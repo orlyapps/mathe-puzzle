@@ -16,6 +16,9 @@ class Index extends Component
     #[Url]
     public $operations = ['+'];
 
+    #[Url]
+    public $background = 'https://www.helpfully.de/wp-content/uploads/2024/12/weihnachten-adventskranz-ausmalen-helpfully.jpg';
+
     public function colorizeText($text)
     {
         $colors = ['text-red-500', 'text-green-500', 'text-blue-500', 'text-yellow-500', 'text-purple-500', 'text-pink-500', 'text-indigo-500', 'text-teal-500', 'text-orange-500'];
